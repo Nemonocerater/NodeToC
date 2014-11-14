@@ -1,0 +1,26 @@
+{
+  "name": "NodeToC",
+  "version": "0.0.0",
+  "description": "Node communicating to a C process",
+  "main": "index.js",
+  "scripts": {
+	"test": "gcc main.c -O2 -o main && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Nemonocerater/NodeToC.git"
+  },
+  "keywords": [
+    "Node",
+    "C",
+    "Process",
+    "Speed",
+    "Efficiency"
+  ],
+  "author": "Joshua Harris (Nemonocerater)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nemonocerater/NodeToC/issues"
+  },
+  "homepage": "https://github.com/Nemonocerater/NodeToC"
+}
